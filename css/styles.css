@@ -250,6 +250,32 @@ button {
 	margin-bottom: 0;
 }
 
+.icons {
+/* padding: 24px 100px; */
+/* margin-bottom: 24px; */
+}
+
+.icons-list {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	column-gap: 24px;
+}
+
+.icons-list-item {
+	margin-bottom: 8px;
+	padding: 24px 100px;
+}
+
+.icons-list-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+}
+
 
 
 /* __________SECTON 1__________ */
@@ -327,21 +353,6 @@ button {
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
-	background-color: #4D5AE5;
-}
-
-.social-list-link:hover,
-.social-list-link:focus {
-	background-color:#4D5AE5;
-}
-
-.social-list-link:hover .social-list-icon
-.social-list-link:focus .social-list-icon {
-	fill: #FFFFFF;
-}
-
-.social-list-icon {
-	fill: #F4F4FD;
 }
 
 
