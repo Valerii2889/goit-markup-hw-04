@@ -250,11 +250,6 @@ button {
 	margin-bottom: 0;
 }
 
-.icons {
-/* padding: 24px 100px; */
-/* margin-bottom: 24px; */
-}
-
 .icons-list {
 	display: flex;
 	justify-content: center;
@@ -399,7 +394,7 @@ button {
 	color: var(--accent-color);
 	
 	width: 264px;
-	
+	margin-right: 0;
 }
 
 .accent-accent {
@@ -434,6 +429,7 @@ button {
 	
 	color: #FFFFFF;
 	margin-bottom: 16px;
+	
 	
 }
 
