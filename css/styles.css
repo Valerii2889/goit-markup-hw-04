@@ -288,15 +288,27 @@ button {
 	display: block;
 	width: 264px;
 	height: 112px;
+	
 
+
+
+	
+	margin: auto;
+	padding: 24px 100px;
+	margin-bottom: 8px;
+	background-image: url(../images/sprite4.svg#icon-antenna); */
+	background-repeat: no-repeat;
+	
+	background-position: center;
 }
 
 .icons-list-icon {
 	width: 64px;
 	height: 64px;
-	background-position: center;
-
 	
+
+
+
 }
 
 
