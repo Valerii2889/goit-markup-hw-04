@@ -250,26 +250,57 @@ button {
 	margin-bottom: 0;
 }
 
-.icons-list {
+/* .icons-list {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 	column-gap: 24px;
-}
+} */
 
 .icons-list-item {
-	margin-bottom: 8px;
-	padding: 24px 100px;
+	/* margin-bottom: 8px;
+	padding: 24px 100px; */
 }
 
-.icons-list-link {
+/* .icons-list-link {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 64px;
 	height: 64px;
 	border-radius: 50%;
+} */
+
+/* .examples-item::before {
+	display: block;
+	content: '';
+	height: 112px;
+	outline: 1px solid red;
+	background-image: url(../images/antenna\ 1.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: rgb(204, 199, 197); 
+} */
+
+
+.icons {
+	display: block;
+	width: 264px;
+	height: 112px;
+
 }
+
+.icons-list-icon {
+	width: 64px;
+	height: 64px;
+	background-position: center;
+
+	
+}
+
+
+
 
 
 
