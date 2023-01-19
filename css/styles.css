@@ -372,13 +372,15 @@ button {
 	gap: 24px;
 }
 
+.section-customers-icons-list {
+	border: 1px solid #8E8F99;
+	border-radius: 4px;
+}
+
 .section-customers-icons {
-	display: block;
+	display: flex;
 	width: 168px;
 	height: 88px;
-
-
-
 }
 
 
@@ -391,6 +393,10 @@ button {
 
 	width: 1600px;
 	margin: auto;
+}
+
+.footer-icons {
+	display: flex;
 }
 
 .footer-logo {
@@ -422,10 +428,10 @@ button {
 	margin-right: 120px;
 }
 
-.footer-icon {
+/* .footer-icon {
 	display: inline-block;
 	align-items: center;
-}
+} */
 
 .footer-social-description {
 	display: flex;
