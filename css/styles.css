@@ -5,7 +5,7 @@
 	--bg-color-body:#FFFFFF;
 	--bg-button-main: #404BBF;
 	--color-button: black;
-	
+	--border-customers: #8E8F99;
 
 
 	--footer:#F4F4FD;
@@ -384,15 +384,17 @@ button {
 	justify-content: center;
 	align-items: center;
 	height: 88px;
-
 	border: 1px solid #8E8F99;
 	border-radius: 4px;
+	transition: border-color: var(--bg-button-main);
+
 }
 
 .section-customers-link:hover,
 .section-customers-link:focus {
-	border: 1px solid #AFB1B8;
-	border-radius: 4px;
+	color: var(--bg-button-main);
+	border: 1px solid var(--bg-button-main);
+	
 }
 
 
