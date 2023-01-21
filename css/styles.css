@@ -138,7 +138,7 @@ button {
 }
 
 .nav-link {
-	font-weight: 600;
+	font-weight: 500;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--primary-text-color)
@@ -343,7 +343,8 @@ button {
 	border-radius: 50%;
 }
 
-.social-list-link:hover {
+.social-list-link:hover,
+.social-list-link:focus {
 	background-color: var(--bg-button-main);
 }
 
@@ -376,19 +377,20 @@ button {
 
 .section-customers-item {
 	width: 168px;
-	border: 1px solid #8E8F99;
-	border-radius: 4px;
 }
 
 .section-customers-link {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border-radius: 100%;
 	height: 88px;
+
+	border: 1px solid #8E8F99;
+	border-radius: 4px;
 }
 
-.section-customers-link:hover {
+.section-customers-link:hover,
+.section-customers-link:focus {
 	border: 1px solid #AFB1B8;
 	border-radius: 4px;
 }
@@ -400,9 +402,6 @@ button {
 	background-color:var(--primary-text-color);
 	padding-top: 100px;
 	padding-bottom: 100px;
-
-	width: 1440px;
-	margin: auto;
 }
 
 .footer-icons {
@@ -470,7 +469,8 @@ button {
 	background-color:rgba(255, 255, 255, 0.1);
 }
 
-.footer-social-list-link:hover {
+.footer-social-list-link:hover,
+.footer-social-list-link:focus {
 	background-color: #31D0AA;
 }
 
@@ -499,7 +499,8 @@ button {
 	row-gap: 48px;
 }
 
-.main-item-item {
+.main-item-item:hover,
+.main-item-item:focus {
 	flex-basis: calc((100% - 48px) / 3);
 	border: 1px solid #E7E9FC;
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -507,19 +508,6 @@ button {
 	0px 2px 1px rgba(46, 47, 66, 0.08);
 	border-radius: 0px 0px 4px 4px;
 }
-
-.card-thumb:hover {
-	background-image: linear-gradient(rgba(46, 47, 66, 0.7)),
-	rgba(rgba(46, 47, 66, 0.7)), url(../images/photo-8.jpg);
-	
-
-
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-}
-
-
 
 .main-btn {
 	font-family: 'Roboto';
@@ -531,12 +519,7 @@ button {
 	color:var(--accent-color);
 	border-radius: 4px;
 	border: none;
-	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
-	0px 2px 1px rgba(0, 0, 0, 0.08), 
-	0px 2px 2px rgba(0, 0, 0, 0.12);
-	border-radius: 4px;
 	
-
 	display: inline-block;
 	padding: 12px 24px;
 }
@@ -544,7 +527,9 @@ button {
 .btn:hover,
 .btn:focus {
 	background-color: var(--bg-button-main);
-	
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+	0px 2px 1px rgba(0, 0, 0, 0.08),
+	0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .main-link {
