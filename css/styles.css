@@ -177,9 +177,6 @@ button {
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-
-	/* background-origin: padding-box;
-	background-clip: padding-box; */
 }
 
 .hero-title {
@@ -251,12 +248,14 @@ button {
 }
 
 .icons {
-	display: block;
-	width: 264px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	height: 112px;
 	margin: auto;
-	padding: 24px 100px;
 	margin-bottom: 8px;
+	background-color: var(--footer);
+	border-radius: 4px;
 }
 
 .icons-list-icon {
@@ -345,6 +344,10 @@ button {
 	border-radius: 50%;
 }
 
+.social-list-link:hover {
+	background-color: rgb(54, 42, 232, 01);
+}
+
 .social-list-icon {
 	fill:var(--footer);
 }
@@ -372,15 +375,23 @@ button {
 	gap: 24px;
 }
 
-.section-customers-icons-list {
+.section-customers-item {
+	width: 168px;
 	border: 1px solid #8E8F99;
 	border-radius: 4px;
 }
 
-.section-customers-icons {
+.section-customers-link {
 	display: flex;
-	width: 168px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
 	height: 88px;
+}
+
+.section-customers-link:hover {
+	border: 1px solid #AFB1B8;
+	border-radius: 4px;
 }
 
 
@@ -399,8 +410,11 @@ button {
 	display: flex;
 }
 
+.footer-icon {
+	margin-right: 120px;
+}
+
 .footer-logo {
-	display: flex;
 	font-family: 'Raleway';
 	font-weight: 800;
 	font-size: 18px;
@@ -408,9 +422,6 @@ button {
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: var(--accent-color);
-	
-	width: 264px;
-	margin-right: 0;
 }
 
 .accent-accent {
@@ -418,19 +429,24 @@ button {
 }
 
 .footer-description {
-	display: inline-block;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--footer-p);
 
 	width: 264px;
 	margin-top: 16px;
-	margin-right: 120px;
 }
 
 .footer-social-description {
-	display: flex;
-	justify-content: left;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color:var(--bg-color-body);
+
+
 	color: var(--bg-color-body);
 	margin-bottom: 16px;
 }
@@ -453,6 +469,10 @@ button {
 	height: 40px;
 	border-radius: 50%;
 	background-color:rgba(255, 255, 255, 0.1);
+}
+
+.footer-social-list-link:hover {
+	background-color: rgba(0, 255, 0, 0.1);
 }
 
 
@@ -483,14 +503,34 @@ button {
 .main-item-item {
 	flex-basis: calc((100% - 48px) / 3);
 	border: 1px solid #E7E9FC;
-}
-
-.main-item-item-item {
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 	0px 1px 1px rgba(46, 47, 66, 0.16),
 	0px 2px 1px rgba(46, 47, 66, 0.08);
 	border-radius: 0px 0px 4px 4px;
 }
+
+.card-thumb {
+background-color: var(--primary-text-color);
+
+background-image: linear-gradient(0deg, rgba(77, 90, 229, 0.1),
+			rgba(77, 90, 229, 0.1)),
+		url(../images/photo-8.jpg),
+		url(../images/photo-9.jpg),
+		url(../images/photo-10.jpg),
+		url(../images/photo-11.jpg),
+		url(../images/photo-12.jpg),
+		url(../images/photo-13.jpg),
+		url(../images/photo-14.jpg),
+		url(../images/photo-15.jpg),
+		url(../images/photo-16.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	/* background-size: cover; */
+}
+
+
+
+
 
 .main-btn {
 	font-family: 'Roboto';
@@ -502,6 +542,10 @@ button {
 	color:var(--accent-color);
 	border-radius: 4px;
 	border: none;
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+	0px 2px 1px rgba(0, 0, 0, 0.08), 
+	0px 2px 2px rgba(0, 0, 0, 0.12);
+	border-radius: 4px;
 	
 
 	display: inline-block;
@@ -510,7 +554,7 @@ button {
 
 .btn:hover,
 .btn:focus {
-	background-color: #404BBF;
+	background-color: var(--bg-button-main);
 	
 }
 
