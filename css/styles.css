@@ -197,8 +197,7 @@ button {
 	line-height: 1.18px;
 	display: inline-block;
 	letter-spacing: 0.04em;
-	color: var(--bg-color-body);
-
+	
 	background: var(--accent-color);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
@@ -447,7 +446,7 @@ button {
 	color:var(--bg-color-body);
 
 
-	color: var(--bg-color-body);
+	
 	margin-bottom: 16px;
 }
 
@@ -509,13 +508,18 @@ button {
 	border-radius: 0px 0px 4px 4px;
 }
 
-.main-item-item:hover {
-	background-color: var(--title-text-color);
-
-
-
+.card-thumb:hover {
+	background-image: linear-gradient(rgba(46, 47, 66, 0.7)),
+	rgba(rgba(46, 47, 66, 0.7)), url(../images/photo-8.jpg);
 	
+
+
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
 }
+
+
 
 .main-btn {
 	font-family: 'Roboto';
