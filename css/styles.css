@@ -345,7 +345,7 @@ button {
 }
 
 .social-list-link:hover {
-	background-color: rgb(54, 42, 232, 01);
+	background-color: var(--bg-button-main);
 }
 
 .social-list-icon {
@@ -472,7 +472,7 @@ button {
 }
 
 .footer-social-list-link:hover {
-	background-color: rgba(0, 255, 0, 0.1);
+	background-color: #31D0AA;
 }
 
 
