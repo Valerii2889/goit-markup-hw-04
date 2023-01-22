@@ -372,6 +372,9 @@ button {
 }
 
 .section-customers-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	gap: 24px;
 }
 
@@ -384,16 +387,23 @@ button {
 	justify-content: center;
 	align-items: center;
 	height: 88px;
+
+	color: #8e8f99;
 	border: 1px solid #8E8F99;
 	border-radius: 4px;
+
 	transition: border-color: var(--bg-button-main);
 
+}
+
+.section-customers-icons-list {
+	fill: currentColor;
 }
 
 .section-customers-link:hover,
 .section-customers-link:focus {
 	color: var(--bg-button-main);
-	border: 1px solid var(--bg-button-main);
+	border-color: var(--bg-button-main);
 	
 }
 
@@ -474,6 +484,10 @@ button {
 .footer-social-list-link:hover,
 .footer-social-list-link:focus {
 	background-color: #31D0AA;
+}
+
+.footer-social-list-icon {
+	fill: #f4f4fd;
 }
 
 
