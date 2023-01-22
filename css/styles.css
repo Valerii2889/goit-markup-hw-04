@@ -516,35 +516,45 @@ button {
 }
 
 .main-item-item {
+	display: block;
 	flex-basis: calc((100% - 48px) / 3);
 	
-	display: block;
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .main-item-item:hover,
 .main-item-item:focus {
-	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+	0px 1px 1px rgba(46, 47, 66, 0.16),
+	0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .main-btn {
+	display: inline-block;
 	font-family: 'Roboto';
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 16px;
 	line-height: 1.5;
 	text-align: center;
 	letter-spacing: 0.04em;
+	background-color: #f4f4fd;
 	color:var(--accent-color);
+
+	border: 1px solid #e7e9fc;
 	border-radius: 4px;
 	border: none;
+
+	cursor: pointer;
 	
-	display: inline-block;
+	
 	padding: 12px 24px;
 }
 
 .btn:hover,
 .btn:focus {
 	background-color: var(--bg-button-main);
+	color: var(--bg-color-body);
+	border-color: transparent;
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
 	0px 2px 1px rgba(0, 0, 0, 0.08),
 	0px 2px 2px rgba(0, 0, 0, 0.12);
